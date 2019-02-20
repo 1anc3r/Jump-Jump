@@ -3,6 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+// 游戏控制器
 public class GameController : MonoBehaviour
 {
     public GameObject scoreText;                // 游戏分数展示

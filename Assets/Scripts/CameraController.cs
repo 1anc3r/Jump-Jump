@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 
+// 摄像机控制器
 public class CameraController : MonoBehaviour {
 
     Vector3 CameraOffset;   // 摄像机偏移位置
