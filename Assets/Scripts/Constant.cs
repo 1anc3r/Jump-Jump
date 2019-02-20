@@ -4,13 +4,21 @@ using UnityEngine;
 
 public enum GameStatus
 {
+    // 游戏菜单
     Menu = 0,
+    // 游戏初始化
     Init,
+    // 生成平台
     Generate,
+    // 平台坠落
     Fall,
+    // 按压平台
     Fold,
+    // 释放平台
     Free,
-    Bounce,
+    // 玩家跳跃
+    Jump,
+    // 游戏结束
     Over
 }
 
